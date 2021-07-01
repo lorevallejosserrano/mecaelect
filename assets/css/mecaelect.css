@@ -1,0 +1,777 @@
+@charset "UTF-8";
+.mecaelect {
+  /*Preloader*/
+  /*Navbar*/
+  /*Main banner*/
+  /*Clientes*/
+  /*Productos*/
+  /*Cotizados*/
+  /* Chrome, Safari, Edge, Opera */
+  /* Firefox */
+  /*Formulariio*/
+  /*Emergencia*/
+  /*Servicios*/
+  /*Quiénes somos*/
+  /*Equipo*/
+  /*Call to action*/
+  /*Testimonios*/
+  /*Footer*/
+  /*Go top*/
+  /*Social*/
+  /** ============================ **/
+  /** OTRAS PÁGINAS **/
+  /** ============================ **/ }
+  .mecaelect .preloader .loader {
+    border-top-color: #0f7dff; }
+    .mecaelect .preloader .loader::after {
+      border-top-color: #0f7dff; }
+  .mecaelect .sub-light-blue {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #0f7dff));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #0f7dff 80%); }
+  .mecaelect .nav {
+    justify-content: flex-end; }
+  .mecaelect .navbar {
+    padding: 25px 0; }
+    .mecaelect .navbar.navbar-light .navbar-brand .nav-logo {
+      max-width: 75%; }
+    .mecaelect .navbar.navbar-light .navbar-toggler {
+      border-color: #0f7dff;
+      color: #0f7dff; }
+      .mecaelect .navbar.navbar-light .navbar-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(15, 125, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+    .mecaelect .navbar.navbar-light .navbar-nav .nav-item .nav-link::before {
+      background: #0f7dff; }
+    .mecaelect .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
+      color: #0f7dff; }
+    .mecaelect .navbar.navbar-light .navbar-nav .nav-item .nav-link:focus {
+      color: #0f7dff; }
+    .mecaelect .navbar.navbar-light .navbar-nav .nav-item .nav-link.active {
+      color: #0f7dff; }
+    .mecaelect .navbar.navbar-light .navbar-nav .nav-item.active .nav-link {
+      color: #0f7dff; }
+    .mecaelect .navbar.navbar-light.is-sticky .navbar-nav .nav-item .nav-link:hover {
+      color: #0f7dff; }
+    .mecaelect .navbar.navbar-light.is-sticky .navbar-nav .nav-item .nav-link:focus {
+      color: #0f7dff; }
+    .mecaelect .navbar.navbar-light.is-sticky .navbar-nav .nav-item .nav-link.active {
+      color: #0f7dff; }
+    .mecaelect .navbar.navbar-light.is-sticky .navbar-nav .nav-item.active .nav-link {
+      color: #0f7dff; }
+  .mecaelect .navbar-emergency {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: #202e52;
+    padding: 25px 0;
+    height: auto; }
+    .mecaelect .navbar-emergency .nav-logo {
+      max-width: 80%; }
+  .mecaelect .home-slides .item-bg01 {
+    background-image: url(../../assets/img/main-banner/main-banner1.png); }
+  .mecaelect .home-slides .item-bg02 {
+    background-image: url(../../assets/img/main-banner/main-banner2.png); }
+  .mecaelect .home-slides .item-bg03 {
+    background-image: url(../../assets/img/main-banner/main-banner3.png); }
+  .mecaelect .home-slides .item-bg04 {
+    background-image: url(../../assets/img/main-banner/main-banner4.png); }
+  .mecaelect .home-slides .item-bg05 {
+    background-image: url(../../assets/img/main-banner/main-banner5.png); }
+  .mecaelect .home-slides .mt-slider-emergency {
+    margin-top: 7rem; }
+  .mecaelect .home-slides.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: #0f7dff; }
+  .mecaelect .home-slides .btn-emergency-banner {
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+    box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: #ffffff;
+    background: #007bff;
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto; }
+    .mecaelect .home-slides .btn-emergency-banner::before {
+      color: #ffffff;
+      background: #007bff; }
+    .mecaelect .home-slides .btn-emergency-banner:hover {
+      color: #000000;
+      background: #ffffff; }
+    .mecaelect .home-slides .btn-emergency-banner:focus {
+      color: #000000;
+      background: #ffffff; }
+    .mecaelect .home-slides .btn-emergency-banner::after {
+      color: #ffffff;
+      background: #007bff; }
+  .mecaelect .form-up {
+    z-index: 8;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    width: 30%; }
+    .mecaelect .form-up.form-up-emergency {
+      top: 20%; }
+    @media (max-width: 1439px) {
+      .mecaelect .form-up {
+        top: 18% !important; } }
+    @media (max-width: 1023px) {
+      .mecaelect .form-up {
+        position: relative !important;
+        top: 0 !important;
+        right: 0 !important;
+        width: 100% !important; } }
+    .mecaelect .form-up .btn-mecaelect::before {
+      background: #202e52; }
+    .mecaelect .form-up .btn-mecaelect::after {
+      background: #202e52; }
+  .mecaelect .partner-area .section-title .txt-light-blue {
+    color: #0f7dff; }
+  .mecaelect .partner-area .partner-slides .partner-item::before {
+    border-left: 3px solid #0f7dff;
+    border-top: 3px solid #0f7dff; }
+  .mecaelect .partner-area .partner-slides .partner-item a img {
+    opacity: 0.5; }
+  .mecaelect .partner-area .partner-slides .partner-item::after {
+    border-right: 3px solid #0f7dff;
+    border-bottom: 3px solid #0f7dff; }
+  .mecaelect .blog-area .section-title .txt-light-blue {
+    color: #0f7dff; }
+  .mecaelect .blog-area .single-blog-post .blog-image .post-tag a {
+    background: #202e52; }
+  .mecaelect .btn-agregar {
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+    box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: #ffffff;
+    background: #202e52; }
+    .mecaelect .btn-agregar::before {
+      color: #ffffff;
+      background: #202e52; }
+    .mecaelect .btn-agregar:hover {
+      color: #ffffff;
+      background: #000000; }
+    .mecaelect .btn-agregar:focus {
+      color: #ffffff;
+      background: #000000; }
+    .mecaelect .btn-agregar::after {
+      color: #ffffff;
+      background: #202e52; }
+  .mecaelect .wizard-mecaelect {
+    /* Mark input boxes that gets an error on validation: */
+    /* Hide all steps by default: */
+    /* Make circles that indicate the steps of the form: */ }
+    .mecaelect .wizard-mecaelect * {
+      box-sizing: border-box; }
+    .mecaelect .wizard-mecaelect h1 {
+      text-align: center; }
+    .mecaelect .wizard-mecaelect input {
+      padding: 10px;
+      font-size: 17px;
+      border: 1px solid #aaaaaa; }
+    .mecaelect .wizard-mecaelect input.invalid {
+      background-color: #ffdddd; }
+    .mecaelect .wizard-mecaelect .tab {
+      display: none; }
+    .mecaelect .wizard-mecaelect .step {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbbbbb;
+      border: none;
+      border-radius: 50%;
+      display: inline-block;
+      opacity: 0.5; }
+  .mecaelect .img-productos {
+    max-width: 25%; }
+  .mecaelect h5 {
+    color: #828893; }
+  .mecaelect .btn-continuar {
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+    box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: #ffffff;
+    background: #202e52;
+    width: 125px; }
+    .mecaelect .btn-continuar::before {
+      color: #ffffff;
+      background: #202e52; }
+    .mecaelect .btn-continuar:hover {
+      color: #ffffff;
+      background: #000000; }
+    .mecaelect .btn-continuar:focus {
+      color: #ffffff;
+      background: #000000; }
+    .mecaelect .btn-continuar::after {
+      color: #ffffff;
+      background: #202e52; }
+  .mecaelect .btn-ver-mas {
+    width: 203px;
+    font-weight: 600;
+    font-size: 15px;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+    box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: #ffffff;
+    background: #202e52; }
+    .mecaelect .btn-ver-mas::before {
+      color: #ffffff;
+      background: #202e52; }
+    .mecaelect .btn-ver-mas:hover {
+      color: #ffffff;
+      background: #000000; }
+    .mecaelect .btn-ver-mas:focus {
+      color: #ffffff;
+      background: #000000; }
+    .mecaelect .btn-ver-mas::after {
+      color: #ffffff;
+      background: #202e52; }
+  .mecaelect .btn-cantidad {
+    color: #ffffff;
+    background: #202e52; }
+    .mecaelect .btn-cantidad::before {
+      color: #ffffff;
+      background: #202e52; }
+    .mecaelect .btn-cantidad:hover {
+      color: #ffffff;
+      background: #000000; }
+    .mecaelect .btn-cantidad:focus {
+      color: #ffffff;
+      background: #000000; }
+    .mecaelect .btn-cantidad::after {
+      color: #ffffff;
+      background: #202e52; }
+  .mecaelect .cotiza-form {
+    margin-left: 150px;
+    margin-right: 150px;
+    box-shadow: none; }
+  .mecaelect .w-70 {
+    width: 70%; }
+  .mecaelect input::-webkit-outer-spin-button,
+  .mecaelect input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+  .mecaelect input[type=number] {
+    -moz-appearance: textfield; }
+  .mecaelect .nav-tabs {
+    border-bottom: none; }
+    .mecaelect .nav-tabs .nav-link {
+      border: 1px solid #202e52;
+      border-radius: 100%;
+      margin-right: 10px; }
+    .mecaelect .nav-tabs .nav-top {
+      border-radius: 100%;
+      color: #202e52;
+      background: #ffffff;
+      border-color: #202e52;
+      margin-right: 5px; }
+    .mecaelect .nav-tabs .form-tab {
+      color: #202e52; }
+  .mecaelect .btn-enviar {
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+    box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin-top: 40px;
+    color: #ffffff;
+    background: #202e52; }
+    .mecaelect .btn-enviar::before {
+      color: #ffffff;
+      background: #202e52; }
+    .mecaelect .btn-enviar:hover {
+      color: #ffffff;
+      background: #000000; }
+    .mecaelect .btn-enviar:focus {
+      color: #ffffff;
+      background: #000000; }
+    .mecaelect .btn-enviar::after {
+      color: #ffffff;
+      background: #202e52; }
+  .mecaelect .btn-volver {
+    width: 115px;
+    font-weight: 600;
+    font-size: 15px;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+    box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: #ffffff;
+    background: #007bff; }
+    .mecaelect .btn-volver::before {
+      color: #ffffff;
+      background: #007bff; }
+    .mecaelect .btn-volver:hover {
+      color: #ffffff;
+      background: #000000; }
+    .mecaelect .btn-volver:focus {
+      color: #ffffff;
+      background: #000000; }
+    .mecaelect .btn-volver::after {
+      color: #ffffff;
+      background: #007bff; }
+  .mecaelect .banner-form form label {
+    color: #000000; }
+  .mecaelect i.icofont-phone.icon-contact {
+    color: #ffffff;
+    font-size: 53px; }
+  .mecaelect .text-h1 {
+    color: #ced3d8; }
+  .mecaelect .font-li {
+    display: block;
+    font-size: 24px; }
+    .mecaelect .font-li .icofont-check-circled {
+      font-weight: bolder;
+      color: #0f7dff; }
+  .mecaelect .font-p {
+    font-size: 18px;
+    padding-left: 38px; }
+  .mecaelect .text-m-blue {
+    color: #202e52; }
+  .mecaelect span.span-nro {
+    color: #ffffff;
+    font-size: 23px; }
+  .mecaelect .navbar .emergency {
+    color: #ffffff; }
+  .mecaelect .services-area .opacity-services {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: .3; }
+  .mecaelect .services-area .section-title .txt-light-blue {
+    color: #0f7dff; }
+  .mecaelect .services-area .single-services .services-image .services-title {
+    position: absolute;
+    left: 5%;
+    top: 80%; }
+    .mecaelect .services-area .single-services .services-image .services-title h3 {
+      font-size: 22px;
+      font-weight: 600; }
+  .mecaelect .services-area .single-services .services-image .serv-mecaelect {
+    position: absolute;
+    z-index: 3;
+    visibility: hidden;
+    top: 50%;
+    left: 5%;
+    right: 5%;
+    margin: 0 auto;
+    color: #ffffff;
+    opacity: 0;
+    font-size: 15px;
+    line-height: 1.8em;
+    text-align: justify;
+    -webkit-transform: translateY(-40%);
+    transform: translateY(-40%);
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+  .mecaelect .services-area .single-services:hover .services-image .serv-mecaelect {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 1;
+    visibility: visible; }
+  .mecaelect .services-area .single-services:focus .services-image .serv-mecaelect {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 1;
+    visibility: visible; }
+  .mecaelect .why-we-different .section-title .txt-light-blue {
+    color: #0f7dff; }
+  .mecaelect .why-we-different .tab li a:hover {
+    background: #202e52;
+    color: #ffffff;
+    border-color: #202e52; }
+  .mecaelect .why-we-different .tab li a:focus {
+    background: #202e52;
+    color: #ffffff;
+    border-color: #202e52; }
+  .mecaelect .why-we-different .tab li.current a {
+    background: #202e52;
+    color: #ffffff;
+    border-color: #202e52; }
+  .mecaelect .why-we-different .text-second {
+    color: #616971; }
+  .mecaelect .services-area .section-title .txt-light-blue {
+    color: #0f7dff; }
+  .mecaelect .services-area .single-services.no-shadow {
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    .mecaelect .services-area .single-services.no-shadow .services-image::before {
+      background: none !important; }
+    .mecaelect .services-area .single-services.no-shadow .services-image .img-circle {
+      border-radius: 50%; }
+    .mecaelect .services-area .single-services.no-shadow:hover {
+      background: none; }
+      .mecaelect .services-area .single-services.no-shadow:hover .services-image::before {
+        opacity: 1; }
+      .mecaelect .services-area .single-services.no-shadow:hover .services-image img {
+        -webkit-transform: none;
+        transform: none; }
+      .mecaelect .services-area .single-services.no-shadow:hover .services-content h3 {
+        color: #000000; }
+      .mecaelect .services-area .single-services.no-shadow:hover .services-content p {
+        color: #828893; }
+    .mecaelect .services-area .single-services.no-shadow:focus {
+      background: none; }
+      .mecaelect .services-area .single-services.no-shadow:focus .services-image::before {
+        opacity: 1; }
+      .mecaelect .services-area .single-services.no-shadow:focus .services-image img {
+        -webkit-transform: none;
+        transform: none; }
+      .mecaelect .services-area .single-services.no-shadow:focus .services-content h3 {
+        color: #000000; }
+      .mecaelect .services-area .single-services.no-shadow:focus .services-content p {
+        color: #828893; }
+  .mecaelect .call-to-action.action-mecaelect {
+    background-image: url(../../assets/img/main-banner/main-banner3.png); }
+    .mecaelect .call-to-action.action-mecaelect .section-title .txt-light-blue {
+      color: #0f7dff; }
+    .mecaelect .call-to-action.action-mecaelect .btn-mecaelect::before {
+      background: #202e52; }
+    .mecaelect .call-to-action.action-mecaelect .btn-mecaelect::after {
+      background: #202e52; }
+  .mecaelect .testimonial-area .section-title .txt-light-blue {
+    color: #0f7dff; }
+  .mecaelect .testimonial-area .testimonial-slides .testim-mecaelect {
+    border-right: none;
+    padding: 30px; }
+    @media (max-width: 1023px) {
+      .mecaelect .testimonial-area .testimonial-slides .testim-mecaelect {
+        text-align: left !important; } }
+    .mecaelect .testimonial-area .testimonial-slides .testim-mecaelect::after {
+      border: none; }
+    .mecaelect .testimonial-area .testimonial-slides .testim-mecaelect .testimonial-content i {
+      color: #0f7dff;
+      font-size: 50px; }
+    .mecaelect .testimonial-area .testimonial-slides .testim-mecaelect .testimonial-content .client-info-mecaelect {
+      padding-left: 15px; }
+      .mecaelect .testimonial-area .testimonial-slides .testim-mecaelect .testimonial-content .client-info-mecaelect h3 {
+        font-weight: normal; }
+      .mecaelect .testimonial-area .testimonial-slides .testim-mecaelect .testimonial-content .client-info-mecaelect .txt-light-blue {
+        color: #0f7dff; }
+    .mecaelect .testimonial-area .testimonial-slides .testim-mecaelect::before {
+      border: none; }
+  .mecaelect .testimonial-area .testimonial-slides.owl-theme .owl-dots .owl-dot:hover span {
+    background: #0f7dff !important;
+    border-color: #0f7dff !important; }
+  .mecaelect .testimonial-area .testimonial-slides.owl-theme .owl-dots .owl-dot:focus span {
+    background: #0f7dff !important;
+    border-color: #0f7dff !important; }
+  .mecaelect .testimonial-area .testimonial-slides.owl-theme .owl-dots .owl-dot.active span {
+    background: #0f7dff;
+    border-color: #0f7dff; }
+  .mecaelect .footer-blue {
+    background-color: #202e52 !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important; }
+    .mecaelect .footer-blue .footer-top-social {
+      display: flex !important;
+      list-style: none !important;
+      padding-left: 0 !important;
+      margin-bottom: 0 !important; }
+      .mecaelect .footer-blue .footer-top-social .footer-social {
+        margin-right: 13px !important;
+        border: 1px solid white !important;
+        border-radius: 5px !important; }
+        .mecaelect .footer-blue .footer-top-social .footer-social a {
+          padding-right: 5px !important;
+          padding-left: 5px !important; }
+    .mecaelect .footer-blue .footer-col .footer-menu {
+      list-style: none !important;
+      padding: 0 !important;
+      margin: 0 !important; }
+    .mecaelect .footer-blue .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
+      .mecaelect .footer-blue .footer-bottom .footer-bottom-text {
+        display: flex !important; }
+  .mecaelect .go-top-mecaelect {
+    border-radius: 50% !important; }
+    .mecaelect .go-top-mecaelect:hover {
+      background: #0f7dff !important; }
+  .mecaelect .btn-clock {
+    cursor: pointer;
+    position: fixed;
+    z-index: 99;
+    bottom: 84px;
+    left: 15px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #202e52;
+    color: #fff; }
+    .mecaelect .btn-clock:hover {
+      color: #ffffff;
+      background: rgba(8, 33, 63, 0.5); }
+    .mecaelect .btn-clock a {
+      color: #ffffff; }
+  .mecaelect .btn-ws {
+    cursor: pointer;
+    position: fixed;
+    z-index: 99;
+    bottom: 187px;
+    left: 15px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #33cc66;
+    color: #fff; }
+    .mecaelect .btn-ws:hover {
+      color: #ffffff;
+      background: rgba(51, 204, 102, 0.5); }
+    .mecaelect .btn-ws a {
+      color: #ffffff; }
+  .mecaelect .btn-tlf {
+    cursor: pointer;
+    position: fixed;
+    z-index: 99;
+    bottom: 135px;
+    left: 15px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #0f7dff;
+    color: #fff; }
+    .mecaelect .btn-tlf:hover {
+      color: #ffffff;
+      background: rgba(15, 125, 255, 0.5); }
+    .mecaelect .btn-tlf a {
+      color: #ffffff; }
+  .mecaelect .page-title-area.aire-main-01 {
+    background-image: url(../../assets/img/productos/productos-06.jpg); }
+  .mecaelect .single-blog-post .read-more-btn {
+    color: #0f7dff; }
+  .mecaelect .pagination-area ul li a.active {
+    background: #0f7dff; }
+  .mecaelect .pagination-area ul li a:hover {
+    background: #0f7dff; }
+  .mecaelect .pagination-area ul li a:focus {
+    background: #0f7dff; }
+  .mecaelect .blog-details-area.ptb-200 {
+    padding-top: 200px;
+    padding-bottom: 200px; }
+  .mecaelect .blog-details-area .sidebar .widget .widget-title::before {
+    content: initial;
+    position: initial;
+    right: initial;
+    top: initial;
+    width: initial;
+    height: initial;
+    background: transparent;
+    -webkit-clip-path: none;
+    clip-path: none;
+    -webkit-transition: initial;
+    transition: initial; }
+  .mecaelect .blog-details-area .sidebar .widget.widget_categories ul li::before {
+    background: #0f7dff; }
+  .mecaelect .navbar-mecaelect.bg-mecaelect {
+    background-color: #202e52; }
+  .mecaelect .navbar-mecaelect .btn-cotizacion {
+    color: #000000;
+    background: #0f7dff;
+    /*position: relative;
+    z-index: 1;    */ }
+    .mecaelect .navbar-mecaelect .btn-cotizacion::before {
+      color: #000000;
+      background: #ffffff; }
+    .mecaelect .navbar-mecaelect .btn-cotizacion:hover {
+      color: #ffffff;
+      background: #0f7dff; }
+    .mecaelect .navbar-mecaelect .btn-cotizacion:focus {
+      color: #ffffff;
+      background: #0f7dff; }
+    .mecaelect .navbar-mecaelect .btn-cotizacion::after {
+      color: #000000;
+      background: #ffffff; }
+
+/** ============================ **/
+/** MEDIA QUERIES **/
+/** ============================ **/
+@media (max-width: 770px) {
+  .main-banner.main-banner-with-form.banner-emergency {
+    padding-top: 180px;
+    padding-bottom: 44px; }
+
+  .mecaelect .home-slides .mt-slider-emergency {
+    margin-top: 0; } }
+@media (max-width: 415px) {
+  .main-banner-content.content-emergency h1 {
+    margin: 15px 0 22px;
+    font-size: 26px;
+    line-height: 43px; }
+
+  h2 {
+    margin-bottom: 12px; }
+
+  .mecaelect .font-li {
+    font-size: 19px; }
+
+  .mecaelect .text-m-blue {
+    font-size: 26px; }
+
+  .main-banner.main-banner-with-form.banner-emergency {
+    padding-top: 117px;
+    padding-bottom: 39px; }
+
+  .mecaelect i.icofont-phone.icon-contact {
+    font-size: 47px; }
+
+  .mecaelect span.span-nro {
+    font-size: 21px; }
+
+  h4 {
+    font-size: 22px; }
+
+  .mecaelect .navbar-emergency {
+    padding: 20px 0; }
+
+  .btn {
+    font-size: 15px;
+    padding: 8px 15px; }
+
+  .mecaelect .w-70 {
+    width: 30%; } }
+@media (max-width: 320px) {
+  .pbtn-0 {
+    padding: 0; }
+
+  .mecaelect .btn-ver-mas {
+    width: 141px;
+    font-size: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px; }
+
+  .mecaelect .btn-continuar {
+    font-size: 11px;
+    width: 87px;
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .mecaelect .blog-details-area.ptb-200 {
+    padding-bottom: 45px; }
+
+  .mecaelect .nav-tabs .nav-link {
+    border: 1px solid #202e52;
+    border-radius: 100%;
+    margin-right: 10px;
+    width: 39px;
+    height: 36px;
+    text-align: center;
+    font-size: 12px; }
+
+  .mecaelect .nav-tabs .form-tab {
+    font-size: 10px; }
+
+  .mecaelect .home-slides .mt-slider-emergency {
+    margin-top: 0px; }
+
+  .btn {
+    font-size: 15px;
+    padding: 5px 10px; } }
+@media (min-width: 280px) {
+  .titles {
+    display: none; }
+
+  .mecaelect .cotiza-form {
+    margin-left: 0;
+    margin-right: 0; }
+
+  .mecaelect .blog-details-area.ptb-200 {
+    padding-top: 162px;
+    padding-bottom: 34px; } }
+@media (min-width: 360px) {
+  .mecaelect .blog-details-area.ptb-200 {
+    padding-top: 163px;
+    padding-bottom: 35px;
+    font-size: 13px; } }
+@media (min-width: 375px) {
+  .mecaelect .blog-details-area.ptb-200 {
+    padding-top: 163px;
+    padding-bottom: 35px;
+    font-size: 14px; } }
+@media (min-width: 576px) {
+  .titles {
+    display: flex; }
+
+  .mecaelect .btn-ver-mas {
+    width: 203px;
+    font-size: 15px; } }
+@media (min-width: 768px) {
+  .mecaelect .w-70 {
+    width: 52%; } }
+@media (min-width: 992px) {
+  .mecaelect .blog-details-area.ptb-200 {
+    padding-top: 200px;
+    padding-bottom: 200px; }
+
+  .btn {
+    font-size: 15px;
+    padding: 15px 30px; } }
+@media (min-width: 1024px) {
+  .mecaelect .form-up {
+    top: 13% !important; }
+
+  .mecaelect .form-up {
+    z-index: 8;
+    position: absolute;
+    top: 25%;
+    right: 8%;
+    width: 34%; }
+
+  .mecaelect .w-70 {
+    width: 66%; } }
+@media (min-width: 1200px) {
+  .mecaelect .form-up {
+    top: 20% !important; }
+
+  .mecaelect .form-up {
+    z-index: 8;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    width: 30%; } }
+
+/*# sourceMappingURL=mecaelect.css.map */

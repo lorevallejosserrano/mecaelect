@@ -11,17 +11,17 @@ Luego de realizar el fork al proyecto https://github.com/lorevallejosserrano/mec
 
 Debes ir a tu local, abrir git bash y ejecutar el siguiente comando:
 ```sh
-$ git clone https://github.com/YOUR_REPO_NAME/mecaelect.git
+git clone https://github.com/YOUR_REPO_NAME/mecaelect.git
 ```
 
 Luego, debes cambiarte a la rama dev.
 ```sh
-$ git checkout dev
+git checkout dev
 ```
 
 Para ver la configuración actual del repositorio, ejecutar el siguiente comando.
 ```sh
-$ git remote -v
+git remote -v
 ```
 
 Debería desplegar la siguiente información.
@@ -32,12 +32,12 @@ Debería desplegar la siguiente información.
 
 Realiza el siguiente comando para configurar el upstream del proyecto.
 ```sh
-$ git remote add upstream https://github.com/lorevallejosserrano/mecaelect.git
+git remote add upstream https://github.com/lorevallejosserrano/mecaelect.git
 ```
 
 Para verificar el upstream con tu fork, vuelve a ejecutar el siguiente comando.
 ```sh
-$ git remote -v
+git remote -v
 ```
 
 Pero esta vez, se debe desplegar de la siguiente forma.
@@ -50,7 +50,7 @@ Pero esta vez, se debe desplegar de la siguiente forma.
 
 En caso de que no veas tu repositorio en el origin, intenta lo siguiente.
 ```sh
-$ git remote set-url origin https://github.com/YOUR_NAME/mecaelect.git
+git remote set-url origin https://github.com/YOUR_NAME/mecaelect.git
 ```
 
 
@@ -62,38 +62,28 @@ Siempre debes trabajar en tu rama. Para descargar los cambios que hayan hecho ot
 
 Para poder bajar los cambios que hayan subido otros colaboradores, primero debes hacer commit de las últimas modificaciones que hayas hecho en el proyecto.
 ```sh
-$ git status
+git status
 ```
 
 Si hay cambios (aparecerán en rojo), debes agregarlos al commit.
 ```sh
-$ git add .
+git add .
 ```
 
 Luego, hay que escribir un breve comentario en inglés (una frase) sobre qué trata este nuevo cambio, antecedido por el nombre de tu rama.
 ```sh
-$ git commit -m "TU_RAMA | this is a comment"
+git commit -m "TU_RAMA | this is a comment"
 ```
 
-Debes cambiarte a la rama principal (dev)
+Ahora puedes bajar los cambios que otros han subido y que ya se haya hecho el merge a la rama dev.
 ```sh
-$ git checkout dev
-```
-
-Ahora puedes bajar los cambios de otros.
-```sh
-$ git fetch upstream
+git fetch upstream
 ```
 ```sh
-$ git pull upstream dev
+git pull upstream dev
 ```
 ```sh
-$ git pull origin dev
-```
-
-Una vez que hayas actualizado el proyecto, debes volver a tu rama para hacer nuevas modificaciones.
-```sh
-$ git checkout TU_RAMA
+git pull origin dev
 ```
 
 
@@ -101,22 +91,22 @@ $ git checkout TU_RAMA
 
 Revisa si hay cambios nuevos.
 ```sh
-$ git status
+git status
 ```
 
 Si hay cambios (aparecerán en rojo), debes agregarlos al commit.
 ```sh
-$ git add .
+git add .
 ```
 
 Luego, hay que escribir un breve comentario en inglés (una frase) sobre qué trata este nuevo cambio, antecedido por el nombre de tu rama.
 ```sh
-$ git commit -m "TU_RAMA | this is a comment"
+git commit -m "TU_RAMA | this is a comment"
 ```
 
 Ahora que ya se ha agregado el commit con los nuevos cambios, se puede subir al repositorio.
 ```sh
-$ git push -u origin TU_RAMA
+git push -u origin TU_RAMA
 ```
 
 Ahora debes ir a tu perfil en github y hacer click en el botón verde "compare & pull request". 
@@ -136,11 +126,11 @@ Una vez aprobado, debes hacer nuevamente el proceso para bajar a tu local, estos
 Todas las ramas deben ser copias de la rama principal (dev), la cual tiene las actualizaciones que han aportado todos los colaboradores. 
 Para poder crear una rama nueva, debes estar en la rama principal y a partir de ella, creas la nueva rama.
 ```sh
-$ git checkout -b TU_NUEVA_RAMA
+git checkout -b TU_NUEVA_RAMA
 ```
 
 Si quieres moverte a otra rama ya existente, debes ejecutar el siguiente comando
 ```sh
-$ git checkout OTRA_RAMA
+git checkout OTRA_RAMA
 ```
 

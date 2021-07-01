@@ -119,6 +119,16 @@ Ahora que ya se ha agregado el commit con los nuevos cambios, se puede subir al 
 $ git push -u origin TU_RAMA
 ```
 
+Ahora debes ir a tu perfil en github y hacer click en el botón verde "compare & pull request". 
+Luego, fijarte que la configuración este así: 
+base:dev | compare: TU_RAMA
+Hacer click en el botón verde "create pull request".
+De esta forma estarás creando el pull request. 
+
+Nota: Luego aparecerá un botón que dice "merge". NO debes hacer click en él, debes esperar a que el dueño del proyecto revise tu código y una vez que esté listo, él hará el merge.
+
+Una vez aprobado, debes hacer nuevamente el proceso para bajar a tu local, estos cambios que están en github.
+
 
 ## Crear una nueva rama
 

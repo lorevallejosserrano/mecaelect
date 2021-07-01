@@ -120,6 +120,7 @@ $ git push -u origin TU_RAMA
 ```
 
 Ahora debes ir a tu perfil en github y hacer click en el botón verde "compare & pull request". 
+Si este botón no fue generado automáticamente, puedes hacer el pull request de forma manual, yendo a la pestaña "Pull request" y haciendo click en el botón verde "new pull request".
 Luego, fijarte que la configuración este así: 
 base:dev | compare: TU_RAMA
 Hacer click en el botón verde "create pull request".

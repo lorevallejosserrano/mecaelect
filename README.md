@@ -75,7 +75,7 @@ Luego, hay que escribir un breve comentario en inglés (una frase) sobre qué tr
 git commit -m "TU_RAMA | this is a comment"
 ```
 
-Ahora puedes bajar los cambios de otros.
+Ahora puedes bajar los cambios que otros han subido y que ya se haya hecho el merge a la rama dev.
 ```sh
 git fetch upstream
 ```
@@ -84,11 +84,6 @@ git pull upstream dev
 ```
 ```sh
 git pull origin dev
-```
-
-Una vez que hayas actualizado el proyecto, debes volver a tu rama para hacer nuevas modificaciones.
-```sh
-git checkout TU_RAMA
 ```
 
 
